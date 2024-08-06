@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Terminal_01.MainPage">
+
+    <ScrollView>
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <VerticalStackLayout Grid.Row="0">
+                <Label Text="Welcome to .NET MAUI!" FontSize="Large" />
+                <Label Text="This is the main page of the Terminal-01 app." />
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.Row="1">
+                
+            </VerticalStackLayout>
+            
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
